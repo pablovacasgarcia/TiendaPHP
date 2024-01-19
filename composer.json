@@ -1,0 +1,27 @@
+{
+    "name": "pablo/tienda",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\Tienda\\": "src/",
+            "Controllers\\": "./src/Controllers",
+            "Models\\": "./src/Models",
+            "Lib\\": "./src/Lib",
+            "Views\\": "./src/Views",
+            "Routes\\": "./src/Routes",
+            "Utils\\": "./src/Utils"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Vacas",
+            "email": "pablovacasgarcia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
